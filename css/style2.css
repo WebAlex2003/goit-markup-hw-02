@@ -1,10 +1,23 @@
-/* top-line */
+/* main-position */
+:root {
+    --color--iris: rgba(77, 90, 229, 1);
+    --color--navy-blue: rgba(46, 47, 66, 1);
+    --color--slate: rgba(67, 68, 85, 1);
+    --color-navy-blue: rgba(46, 47, 66, 1);
+    --color--white: #FFFFFF;
+}
 ul {
     list-style: none;
 }
 a {
     text-decoration: none;
 }
+body {
+    background-color: #FFFFFF;
+    color: #434455;
+    font-family: "Roboto",sans-serif;
+}
+/* top-line */
 .logo {
     width: 44px;
     height: 21px;
@@ -14,11 +27,7 @@ font-family: 'Raleway';
     font-size: 18px;
     line-height: 21px;
     color: rgba(77, 90, 229, 1);
-    height: 21px;
-        width: 44px;
-        left: 0px;
-        top: 1.5px;
-        border-radius: nullpx;
+
 }
 .sec-logo {
     width: 71px;
@@ -29,11 +38,7 @@ font-family: 'Raleway';
         font-size: 18px;
         line-height: 21px;
         color: rgba(46, 47, 66, 1);
-        height: 21px;
-            width: 71px;
-            left: 44px;
-            top: 1.5px;
-            border-radius: nullpx;
+
 }
 .address {
     font-family: 'Roboto';
@@ -41,31 +46,35 @@ font-family: 'Raleway';
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
+        letter-spacing: 0.02em
 }
-.studio {
+.studio-word link {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
         color: #2E2F42;
+        letter-spacing: 0.02em
 }
-.portfolio {
+.portfolio-word link {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
         color: #2E2F42;
+        letter-spacing: 0.02em;
             
 }
-.contacts {
+.contacts-word link {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
         color: #2E2F42;
+        letter-spacing: 0.02em;
       
 }
 .contact-link {
@@ -74,7 +83,8 @@ font-family: 'Raleway';
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        color: #434455;;
+        color: #434455;
+        letter-spacing: 0.02em;
 }
 /* section-hero */
 .header {
@@ -82,32 +92,25 @@ font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 56px;
-        line-height: 60px;
+        line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #FFFFFF;;
+        color: #FFFFFF;
 }
 .section-hero {
-    position: absolute;
-        width: 1440px;
-        height: 600px;
-        left: 0px;
-        top: 72px;
         background: rgba(46, 47, 66, 1);
 }
 .button {
-    display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px 32px;
-        gap: 10px;
-    
-        position: absolute;
-        width: 169px;
-        height: 56px;
-        left: 636px;
-        top: 428px;
-        background: #4D5AE5;;
+        background: #4D5AE5;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff
+}
+button:hover {
+    background-color:#ffffff;
+    cursor: pointer;
 }
 .name-button {
     font-family: 'Roboto';
