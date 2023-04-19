@@ -12,6 +12,10 @@
 a {
     text-decoration: none;
 }
+.body {
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+}
 /* top line */
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -31,7 +35,7 @@ a {
         font-size: 18px;
         line-height: 21px;
 }
-.studio {
+.link-header {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -40,42 +44,11 @@ a {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.studio:hover {
+.link-header:hover,
+.link-header:focus {
 color: #404bbf;
 }
-.studio:focus {
-    color: #404bbf;
-}
-.portfolio {
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.portfolio:hover {
-color: #404bbf;
-}
-.portfolio:focus {
-color: #404bbf;
-}
-.contacts {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-}
-.contacts:hover {
-    color: #404bbf;
-}
-.contacts:focus {
- color: #404bbf; 
-}
+
 .address {
     font-style: normal
 }
@@ -88,14 +61,12 @@ color: #404bbf;
         color: rgba(67, 68, 85, 1);
         letter-spacing: 0.02em;
 }
-.contacts-link:hover {
-    color: #404bbf
-}
-.contacts-link:focus {
-    color: #404bbf
+.contact-link:hover,
+.contact-link:focus {
+color: #404bbf;
 }
 /* Hero-section */
-.button-first {
+.primary-button {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -105,100 +76,33 @@ color: #404bbf;
         color:#4d5ae5;
         cursor: pointer
 }
-.button-first:hover {
+.primary-button:hover,
+.primary-button:focus {
 color: #FFFFFF;
 background-color: #404BBF;
 }
-.button-first:focus {
-color: #FFFFFF;
-background-color: #404BBF;
-}
-.button-sec {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    font-family: "Roboto", sans-serif;
-    background: #404BBF;
-    color: #4d5ae5;
-    cursor: pointer;
-}
-.button-sec:hover {
-color: #FFFFFF;
-background-color: #404BBF;
-}
-.button-sec:focus {
-    color: #FFFFFF;
-        background-color: #404BBF;
-}
-.button-th {
-font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    font-family: "Roboto", sans-serif;
-    background: #404BBF;
-    color: #4d5ae5;
-    cursor: pointer;
-}
-.button-th:hover {
-color: #FFFFFF;
-    background-color: #404BBF;
-}
-.button-th:focus {
-color: #FFFFFF;
-    background-color: #404BBF;
-}
-.button-fo {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    font-family: "Roboto", sans-serif;
-    background: #404BBF;
-    color: #4d5ae5;
-    cursor: pointer;
-}
-.button-fo:hover {
-color: #FFFFFF;
-    background-color: #404BBF;
-}
-.button-fo:focus {
-color: #FFFFFF;
-    background-color: #404BBF;
-}
-.button-fi {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    font-family: "Roboto", sans-serif;
-    background: #404BBF;
-    color: #4d5ae5;
-    cursor: pointer
-}
-.button-fi:hover {
-color: #FFFFFF;
-    background-color: #404BBF;
-}
-.button-fi:focus {
-color: #FFFFFF;
-    background-color: #404BBF;
-}
+
 /* section-main */
-.text {
+.photo-link {
+text-decoration: none;
+}
+.title-text {
 font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
 }
-.description {
+.description-text {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:#434455;
 }
 /* footer-section */
 footer {
