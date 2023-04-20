@@ -1,10 +1,11 @@
 /* main-position */
 :root {
-    --color--iris: rgba(77, 90, 229, 1);
-    --color--navy-blue: rgba(46, 47, 66, 1);
-    --color--slate: rgba(67, 68, 85, 1);
-    --color-navy-blue: rgba(46, 47, 66, 1);
-    --color--white: #FFFFFF;
+    --white:#FFFFFF;
+    --grey:#434455;
+    --iris:#4D5AE5;
+    --black:#2E2F42;
+    --laurel:#404bbf;
+    --honky:#F4F4FD;
 }
 ul {
     list-style: none;
@@ -13,8 +14,8 @@ a {
     text-decoration: none;
 }
 body {
-    background-color: #FFFFFF;
-    color: #434455;
+    background-color: var(--white);
+    color: var(--grey);
     font-family: "Roboto",sans-serif;
 }
 /* top-line */
@@ -26,7 +27,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color:#4d5ae5
+    color: var(--iris);
 
 }
 .sec-logo {
@@ -37,7 +38,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        color: rgba(46, 47, 66, 1);
+        color: var(--black);
 
 }
 
@@ -60,12 +61,12 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2e2f42;
+        color: var(--black);
         text-decoration: none;
 }
 .link-header:hover,
 .link-header:focus {
-color: #404bbf;
+color: var(--laurel);
 }
 .contact-link {
         font-family: 'Roboto';
@@ -73,13 +74,13 @@ color: #404bbf;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        color: #434455;
+        color: var(--grey);
         letter-spacing: 0.02em;
 }
 .contact-link:hover,
 .contact-link:focus {
-    color: #404bbf;
-    color: #404bbf;
+    color: var(--laurel);
+    color: var(--laurel);
 }
 /* section-hero */
 .header {
@@ -90,25 +91,25 @@ color: #404bbf;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #FFFFFF;
+        color: var(--white);
 }
 .section-hero {
-        background: rgba(46, 47, 66, 1);
+        background: var(--black);
 }
 .button {
         font-family: "Roboto", sans-serif;
-        background: #4D5AE5;
+        background: var(--iris);
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
-        color: #ffffff
+        color: var(--white);
 }
 button:hover,
 button:focus {
-    background-color: #404BBF;
-    background-color: #404BBF;
+    background-color: var(--laurel);
+    background-color: var(--laurel);
 }
 .name-button {
     font-family: 'Roboto';
@@ -121,7 +122,7 @@ button:focus {
             left: 32px;
             top: 16px;
             border-radius: nullpx;
-            color: #FFFFFF
+            color: var(--white);
 }
 /* main-section */
 .title {
@@ -131,7 +132,7 @@ button:focus {
         font-size: 20px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #2E2F42;;
+        color: var(--black);
 }
 .text {
         font-family: 'Roboto';
@@ -140,7 +141,7 @@ button:focus {
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;;
+        color: var(--grey);
 }
 /* third-section */
 .sec-title {
@@ -150,11 +151,11 @@ button:focus {
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color:#2e2f42;
+        color: var(--black);
 }
 /* fourth-section */
 .fourth-section {
-    background-color: #F4F4FD;
+    background-color: var(--honky);
 }
 .third-title {
     font-size: 36px;
@@ -162,10 +163,10 @@ button:focus {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color:#2e2f42;
+    color:var(--black);
 }
 .list-names {
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 
 .names {
@@ -175,7 +176,7 @@ button:focus {
         font-size: 20px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color:#2e2f42;
+        color:var(--black);
 }
 .position {
     font-family: 'Roboto';
@@ -187,7 +188,7 @@ button:focus {
 }
 /* footer-section */
 .footer-section {
-    background-color:#2e2f42;
+    background-color: var(--black);
 }
 .bottom-text {
     font-family: 'Roboto';
@@ -197,5 +198,5 @@ button:focus {
         line-height: 24px;
 }
 .logo-studio {
-    color: #f4f4fd;
+    color: var(--honky);
 }
